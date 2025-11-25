@@ -1,5 +1,5 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
 // the translations
 // (tip move them in a JSON file and import them,
@@ -27,7 +27,7 @@ const resources = {
         'Limited time offer - Upgrade now and save 20%',
       'No credit card required. 14-day free trial available.':
         'No credit card required. 14-day free trial available.',
-    }
+    },
   },
   pt: {
     pricingEmail: {
@@ -51,19 +51,16 @@ const resources = {
         'Oferta por tempo limitado - Atualize agora e economize 20%',
       'No credit card required. 14-day free trial available.':
         'Não é necessário cartão de crédito. Teste gratuito de 14 dias disponível.',
-    }
-  }
+    },
+  },
 };
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources,
-    lng: "en",
+i18n.use(initReactI18next).init({
+  resources,
 
-    interpolation: {
-      escapeValue: false // react already safes from xss
-    }
-  });
+  interpolation: {
+    escapeValue: false, // react already safes from xss
+  },
+});
 
 export { i18n };

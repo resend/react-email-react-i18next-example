@@ -18,7 +18,9 @@ interface PricingProps {
 }
 
 export function Pricing({ locale }: PricingProps) {
-  const { t } = useTranslation("pricingEmail");
+  const { t } = useTranslation('pricingEmail', {
+    lng: locale,
+  });
 
   return (
     <Tailwind>
@@ -26,7 +28,8 @@ export function Pricing({ locale }: PricingProps) {
         <Head />
         <Body>
           <Preview>
-            {t('Exclusive Offer Just For You: Unlock Premium Features at $12/month'
+            {t(
+              'Exclusive Offer Just For You: Unlock Premium Features at $12/month',
             )}
           </Preview>
           <Container className="bg-white rounded-[12px] mx-auto max-w-[500px] p-[24px]">
@@ -41,7 +44,9 @@ export function Pricing({ locale }: PricingProps) {
                 </span>
               </Text>
               <Text className="text-gray-700 text-[14px] leading-[20px] mt-[16px] mb-[24px]">
-                {t("We've handcrafted the perfect plan tailored specifically for your needs. Unlock premium features at an unbeatable value.")}
+                {t(
+                  "We've handcrafted the perfect plan tailored specifically for your needs. Unlock premium features at an unbeatable value.",
+                )}
               </Text>
               <ul className="text-gray-500 text-[14px] leading-[24px] mb-[32px] pl-[14px]">
                 {[
