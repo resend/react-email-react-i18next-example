@@ -1,5 +1,5 @@
 {
-  "name": "react-email-with-react-intl-example",
+  "name": "react-email-with-react-i18next-example",
   "scripts": {
     "build": "email build",
     "dev": "email dev",
