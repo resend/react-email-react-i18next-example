@@ -1,6 +1,6 @@
-# React Email with React Intl
+# React Email with react-i18next
 
-This example shows how to use React Email with [React Intl](https://formatjs.github.io/docs/react-intl).
+This example shows how to use React Email with [react-i18next](https://react.i18next.com/).
 
 ## Instructions
 
