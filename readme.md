@@ -1,6 +1,6 @@
 # React Email with react-i18next
 
-This example shows how to use React Email with [react-i18next](https://react.i18next.com/).
+This example shows how to use [React Email](https://react.email/) with [react-i18next](https://react.i18next.com/).
 
 ## Instructions
 
