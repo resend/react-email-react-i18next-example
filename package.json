@@ -6,7 +6,6 @@
     "export": "email export"
   },
   "dependencies": {
-    "@react-email/ui": "6.1.4",
     "i18next": "25.7.4",
     "i18next-resources-to-backend": "1.2.1",
     "react": "^19.0.0",
@@ -16,6 +15,7 @@
   },
   "devDependencies": {
     "@react-email/preview-server": "5.2.10",
+    "@react-email/ui": "6.1.4",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
     "typescript": "^5.9.3"
