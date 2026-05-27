@@ -1,5 +1,6 @@
 {
   "name": "react-email-react-i18next-example",
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "build": "email build",
     "dev": "email dev",
